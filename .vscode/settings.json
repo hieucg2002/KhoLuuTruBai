@@ -1,0 +1,9 @@
+{
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.dependency.syncWithFolderExplorer": false,
+    "java.project.sourcePaths": [
+        "src/com/hieunt2008110107",
+        "src"
+    ],
+    "java.format.settings.url": ".vscode/java-formatter.xml"
+}
