@@ -37,6 +37,7 @@ public class baiTap2 {
 
 	public static void main(String[] args){
 		double a, b, c;
+
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Nhap he so a, b, c cua ax^2 + bx + c = 0");
 		System.out.print("He so a: ");
@@ -45,6 +46,7 @@ public class baiTap2 {
 		b = scanner.nextDouble();
 		System.out.print("He so c: ");
 		c = scanner.nextDouble();
+		
 		if(a == 0)
 			phuongTrinhBac1(b, c);
 		else

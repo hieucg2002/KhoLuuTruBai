@@ -7,11 +7,9 @@ import java.util.Scanner;
 
 public class baiTap3 {
     public static void main(String[] args){
-
 		int soDien, tien, muc1 = 1000, muc2 = 1200;
 
 		Scanner scanner = new Scanner(System.in);
-
 		System.out.print("Nhap so dien thang: ");
 		soDien = scanner.nextInt();
 

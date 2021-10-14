@@ -9,10 +9,12 @@ public class baiTap3 {
     public static void main(String[] args) {
 		int n, min, sum = 0;
 		int[] numbers;
+
 		Scanner scanner = new Scanner(System.in);
 		numbers = new int[1000];
 		System.out.print("Nhap so luong phan tu: ");
 		n = scanner.nextInt();
+
 		for(int i = 0; i < n; i++){
 			System.out.printf("number[%d] = ", i);
 			numbers[i] = scanner.nextInt();
@@ -40,11 +42,11 @@ public class baiTap3 {
 				sum += numbers[i];
 		
 		for(int i = 0; i < n; i++)
-			System.out.println("number[" + i + "] = " + numbers[i]);
+		
+		System.out.println("number[" + i + "] = " + numbers[i]);
 		System.out.println("+++Xuat mang hoan thanh+++");
 		System.out.println("Gia tri nho nhat trong mang: Min = " + min);
 		System.out.println("Tong cac so chia het cho 3: Tong = " + sum);
-        	
 		scanner.close();
 	}
 }

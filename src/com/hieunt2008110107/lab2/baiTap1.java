@@ -7,15 +7,12 @@ import java.util.Scanner;
 
 public class baiTap1 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         double a, b;
 		System.out.println("Nhap he so a, b theo dang ax + b = 0");
-
 		System.out.print("He so a: ");
 		a = scanner.nextDouble();
-
 		System.out.print("He so b: ");
 		b = scanner.nextDouble();
 

@@ -8,7 +8,9 @@ import java.util.Scanner;
 public class baiTap4 {
     public static void main(String[] args) {
         int luaChon;
+
 		Scanner scanner = new Scanner(System.in);
+		
 		do{
 			System.out.println("+---------------------------------------------------+");
 			System.out.println("+		1.Giai phuong trinh bac 1	    +");

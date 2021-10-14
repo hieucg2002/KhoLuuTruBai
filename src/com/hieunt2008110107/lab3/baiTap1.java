@@ -7,11 +7,9 @@ import java.util.Scanner;
 
 public class baiTap1 {
     public static void main(String[] args) {
-
 		int n, count = 0;
 
 		Scanner scanner = new Scanner(System.in);
-
 		System.out.print("Nhap so can kiem tra: ");
 		n = scanner.nextInt();
 
