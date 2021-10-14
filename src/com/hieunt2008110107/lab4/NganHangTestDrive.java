@@ -1,6 +1,6 @@
 package lab4;
 
-public class AccountTestDrive {
+public class NganHangTestDrive {
     public static void main(String[] args) {
     Account account;
     account= new Account(2008110107,500000);
