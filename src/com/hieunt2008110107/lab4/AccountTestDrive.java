@@ -3,11 +3,11 @@ package lab4;
 public class AccountTestDrive {
     public static void main(String[] args) {
     Account account;
-    account= new Account(2008110255,500000);
+    account= new Account(2008110107,500000);
     account.showData();
-    account.deposit(500000);
+    account.deposit(900000);
     account.showData();
-    account.withdraw(100000);
+    account.withdraw(500000);
     account.showData();
 
     Customer customer;

@@ -1,11 +1,9 @@
 package lab4;
 
 public class Account {
-    // attribute thuộc tính - data
     int  account_number;
     int account_balance;
-
-// method phương thức 
+ 
     Account(int a, int b) {
         account_balance = b ;
         account_number  = a ;
