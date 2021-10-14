@@ -21,7 +21,6 @@ public class Customer {
     }
     
     void showCustomer(){
-        System.out.println("   ---Customer Information---  ");
         System.out.println(" Name :  "+Name);
         System.out.println(" Address :  "+Address);
     }

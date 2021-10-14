@@ -21,5 +21,7 @@ public class Employee {
     }
     
     void showEmloyee(){  
+        System.out.println("Tên nhân viên :" +Name);
+        System.out.println("Lương : " +Slary);
     }
 }

@@ -9,17 +9,19 @@ public class AccountTestDrive {
     account.showData();
     account.withdraw(500000);
     account.showData();
+    System.out.println("=================");
 
     Customer customer;
     customer=new Customer();
     customer.getName();
     customer.getAddress();
     customer.showCustomer();
-
+    System.out.println("==================");
 
     Employee employee;
     employee = new Employee();
     employee.getName();
     employee.getSalary();
+    employee.showEmloyee();
     }
 }
