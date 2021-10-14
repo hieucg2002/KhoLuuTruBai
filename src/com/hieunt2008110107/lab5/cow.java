@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.Scanner;
 
-public class cow {
+public class Cow {
     double weight;
     int age;
 
@@ -15,10 +15,10 @@ public class cow {
         scanner.close();
     }
 
-    cow(){
+    Cow(){
         nhapThongTinCow();
     }
-    cow(double w){
+    Cow(double w){
         weight = w;
         w = 15; 
     }

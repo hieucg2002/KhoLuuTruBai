@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.Scanner;
 
-public class nhanVien {
+public class NhanVien {
     String tenNhanVien;
     double luong;
     String diaChi;
@@ -24,7 +24,7 @@ public class nhanVien {
         scanner.close();
     }
 
-    nhanVien(){
+    NhanVien(){
         nhapThongTinNhanVien();
     }
 }

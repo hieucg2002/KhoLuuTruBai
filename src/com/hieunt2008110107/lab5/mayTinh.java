@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.Scanner;
 
-public class mayTinh {
+public class MayTinh {
     String nhaSanXuat;
     int namSanXuat;
     String heDieuHanh;
@@ -30,7 +30,7 @@ public class mayTinh {
         scanner.close();
     }
     
-    mayTinh(){
+    MayTinh(){
         nhapThongTinMayTinh();
     }
 }

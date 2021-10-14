@@ -1,9 +1,9 @@
 package lab5;
 
-public class xeTestDrive {
+public class XeTestDrive {
     public static void main(String[] args) {
-        xe xe;
-        xe = new xe();
+        Xe xe;
+        xe = new Xe();
 
         System.out.println("===================");
         System.out.println("Ten Chu Xe : " +xe.tenChuXe);

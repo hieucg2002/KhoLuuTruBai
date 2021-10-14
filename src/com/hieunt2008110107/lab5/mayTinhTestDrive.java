@@ -1,9 +1,9 @@
 package lab5;
 
-public class mayTinhTestDrive {
+public class MayTinhTestDrive {
     public static void main(String[] args) {
-        mayTinh mayTinh;
-        mayTinh = new mayTinh();
+        MayTinh mayTinh;
+        mayTinh = new MayTinh();
         
         System.out.println("====================================");
         System.out.println("Nha San Xuat : " +mayTinh.nhaSanXuat);

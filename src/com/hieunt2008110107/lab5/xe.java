@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.Scanner;
 
-public class xe {
+public class Xe {
     String tenChuXe;
     String hangSanXuat;
     String dong;
@@ -24,7 +24,7 @@ public class xe {
         scanner.close();
     }
 
-    xe(){
+    Xe(){
         nhapThongTinXe();
     }
 }

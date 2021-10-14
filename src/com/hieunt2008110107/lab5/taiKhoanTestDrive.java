@@ -1,9 +1,9 @@
 package lab5;
 
-public class taiKhoanTestDrive {
+public class TaiKhoanTestDrive {
     public static void main(String[] args) {
-        taiKhoan taiKhoan;
-        taiKhoan = new taiKhoan();
+        TaiKhoan taiKhoan;
+        taiKhoan = new TaiKhoan();
         
         System.out.println("=======================");
         System.out.println("Ten Chu Tai Khoan : " +taiKhoan.tenChuTaiKhoan);

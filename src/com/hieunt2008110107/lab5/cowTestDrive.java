@@ -1,15 +1,15 @@
 package lab5;
 
-public class cowTestDrive {
+public class CowTestDrive {
     public static void main(String[] args) {
-        cow cow;
-        cow = new cow();
+        Cow cow;
+        cow = new Cow();
         
         System.out.println("========================");
         System.out.println("Can Nang : " +cow.weight);
         System.out.println("Tuoi : " +cow.age);
 
-        cow = new cow(15);
+        cow = new Cow(15);
         System.out.println("Cow trong Head co Can Nang : " +cow.weight);
     }
 }

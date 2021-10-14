@@ -2,7 +2,7 @@ package lab5;
 
 import java.util.Scanner;
 
-public class taiKhoan {
+public class TaiKhoan {
     String tenChuTaiKhoan;
     String soTaiKhoan;
     String soDuTaiKhoan;
@@ -18,7 +18,7 @@ public class taiKhoan {
         scanner.close();
     }
 
-    taiKhoan(){
+    TaiKhoan(){
         nhapThongTinTaiKhoan();
     }
 }
