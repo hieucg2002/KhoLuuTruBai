@@ -8,18 +8,31 @@ public class Cow {
 
     void nhapThongTinCow(){
         age = 1;
-
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nhap can nang : ");
         weight = scanner.nextDouble();
         scanner.close();
     }
 
-    Cow(){
-        nhapThongTinCow();
+    void moo(){
+        int bienCucBo=5;
+        System.out.println(bienCucBo);
+        System.out.println("Be Be...");
     }
+
+    Cow(){
+        moo(); //gắn moo
+        nhapThongTinCow();
+        weight = 11.2;
+    }
+
     Cow(double w){
         weight = w;
         w = 15; 
+    }
+
+    Cow(double w, int a){
+        weight = w;
+        age = a;
     }
 }
