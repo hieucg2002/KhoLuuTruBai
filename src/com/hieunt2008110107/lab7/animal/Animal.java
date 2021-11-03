@@ -1,14 +1,14 @@
 package lab7.animal;
 
 public class Animal {
-    protected String picture; //Hình Ảnh
-	protected String food; //Thức Ăn
-	protected int hunger;  //Đói Bụng
-	protected String boundaries; //Ranh Giới
-	protected int location;  //Vị Trí
+    protected String picture;     //Hình Ảnh
+	protected String food;        //Thức Ăn
+	protected int hunger;         //Đói Bụng
+	protected String boundaries;  //Ranh Giới
+	protected int location;       //Vị Trí
 
 	protected void chirp(){ //Tiếng Kêu
-		System.out.println("Animal cry........");
+		System.out.println("Animal chirp........");
 	}
 
 	protected void eat(){ //Ăn

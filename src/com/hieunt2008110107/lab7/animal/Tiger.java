@@ -1,17 +1,13 @@
 package lab7.animal;
 
 public class Tiger extends Animal {
-    protected String picture = "Picture of tiger";
-	protected String food = "thịt";
+    protected String picture = "Picture is tiger";
+	protected String food = "Food is Tiger";
 	protected int hunger = 1;
 
 	@Override
 	protected void chirp() {
+		super.chirp();
 		System.out.println("Tiger chirrp : Gruuuuuuu");
-	}
-
-	@Override
-	protected void eat() {
-		System.out.println("Tiger eat............");
 	}
 }
