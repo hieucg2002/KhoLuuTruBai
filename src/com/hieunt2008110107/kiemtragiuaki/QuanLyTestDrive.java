@@ -6,20 +6,20 @@ public class QuanLyTestDrive {
         HocVien sv = new HocVien();
         sv.setDiemMonHoc1(5);
         sv.setDiemMonHoc2(6);
-        sv.setHoTen("Nguyễn Văn A");
-        sv.setDiaChi("1 Nguyễn Văn Mại , p4 , Q.Tân Bình");
+        sv.setHoTen("Nguyen Trong Hieu");
+        sv.setDiaChi("Can Gio");
         sv.setSoLuongHV(20);
         ds.them(sv);
         NhanVien nv = new NhanVien();
         nv.setHeSoLuong(5);
-        nv.setHoTen("Nguyễn Văn B");
-        nv.setDiaChi("2 Nguyễn Văn Mại , p4 , Q.Tân Bình");
+        nv.setHoTen("Nguyễn Trong Nghia");
+        nv.setDiaChi("Can Gio");
         ds.them(nv);
         KhachHang kh = new KhachHang();
-        kh.setTenCongTy("ABC");
+        kh.setTenCongTy("Java");
         kh.setTriGiaDonHang(500000);
-        kh.setHoTen("Nguyễn Văn C");
-        kh.setDiaChi("3 Nguyễn Văn Mại , p4 , Q.Tân Bình");
+        kh.setHoTen("Nguyễn Trong Hoang");
+        kh.setDiaChi("Can Gio");
         ds.them(kh);
         ds.inDanhSach();
     }
