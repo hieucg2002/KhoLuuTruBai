@@ -1,7 +1,5 @@
 package kiemtragiuaki;
 
-import java.security.NoSuchAlgorithmException;
-
 public class KhachHang extends Nguoi {
     private String tenCongTy;
     private double triGiaDonHang;
